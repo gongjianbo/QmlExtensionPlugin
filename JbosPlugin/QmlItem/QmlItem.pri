@@ -1,0 +1,2 @@
+RESOURCES += \
+    $$PWD/qmlitem.qrc
