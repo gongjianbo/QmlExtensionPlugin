@@ -20,7 +20,8 @@ qmldir.files = qmldir
 
 INSTALLS += target qmldir
 
-#copy dll and amldir to qt install dir
+#make dll and amldir to qt install dir.
+#or using make arguments"install".
 win32 {
     DESTDIR = $$[QT_INSTALL_QML]/$$PLUGIN_TYPE
 
