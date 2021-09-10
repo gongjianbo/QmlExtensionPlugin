@@ -1,12 +1,10 @@
-#ifndef PAINTEDTEST_H
-#define PAINTEDTEST_H
-
+#pragma once
 #include <QQuickPaintedItem>
-#include <QPainter>
 
 class PaintedTest : public QQuickPaintedItem
 {
     Q_OBJECT
+    QML_ELEMENT
 public:
     explicit PaintedTest(QQuickItem *parent = nullptr);
 
@@ -17,4 +15,3 @@ protected:
     void geometryChanged(const QRectF &newGeometry, const QRectF &oldGeometry) override;
 };
 
-#endif // PAINTEDTEST_H

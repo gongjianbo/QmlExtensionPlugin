@@ -1,4 +1,6 @@
 #include "PaintedTest.h"
+#include <QPainter>
+#include <QFontMetrics>
 
 PaintedTest::PaintedTest(QQuickItem *parent)
     : QQuickPaintedItem(parent)
@@ -25,6 +27,5 @@ void PaintedTest::componentComplete()
 
 void PaintedTest::geometryChanged(const QRectF &newGeometry, const QRectF &oldGeometry)
 {
-    Q_UNUSED(newGeometry)
-    Q_UNUSED(oldGeometry)
+    QQuickPaintedItem::geometryChanged(newGeometry, oldGeometry);
 }

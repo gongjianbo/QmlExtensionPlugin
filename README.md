@@ -1,15 +1,7 @@
-# EasyJbos
+# QML Extension Plugin
 
-#### Component customization and simple framework design for testing QML (based on qt5.12)
+#### Learn to make QML extension. There are two versions before and after Qt5.15. 
 
-#### 测试QML的组件自定义、简易框架设计（基于Qt5.12）
+#### 学习制作QML插件，分别使用 Qt5.15 之前和之后的两种方式。
 
-# Directory （目录结构）
-
---JbosDemo: Test case(测试用例)
-
---JbosPlugin: Plugin source code(插件源码)
-
---|--PaintedItem：QQuickPaintedItem drawing(组件绘制)
-
---|--QmlItem：QML component packaging(组件封装)
+#### see: https://www.qt.io/blog/qml-type-registration-in-qt-5.15

@@ -1,12 +1,10 @@
-#include "JbosPlugin.h"
-
+#include "GtPlugin.h"
 #include <qqml.h>
-
 #include "PaintedTest.h"
 
-void JbosPlugin::registerTypes(const char *uri)
+void GtPlugin::registerTypes(const char *uri)
 {
     Q_INIT_RESOURCE(qmlitem);
-    // @uri EasyJbos
+    // @uri
     qmlRegisterType<PaintedTest>(uri, 1, 0, "PaintedTest");
 }
