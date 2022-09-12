@@ -1,6 +1,6 @@
 TEMPLATE = lib
-TARGET = GtComponent2
-TARGET = $$qtLibraryTarget($$TARGET)
+TARGET = $$qtLibraryTarget(GtComponent2)
+
 QT += quick
 QT += qml
 QT += core
@@ -15,7 +15,9 @@ CONFIG += qmltypes
 #module
 #uri = Gt.Component2
 QML_IMPORT_NAME = Gt.Component2
-QML_IMPORT_MAJOR_VERSION = 1
+#QML_IMPORT_MAJOR_VERSION = 1
+#QML_IMPORT_MINOR_VERSION = 0
+QML_IMPORT_VERSION = 1.0
 
 SOURCES += \
         GtPlugin.cpp

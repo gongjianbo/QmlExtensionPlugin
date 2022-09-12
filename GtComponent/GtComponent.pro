@@ -1,6 +1,6 @@
 TEMPLATE = lib
-TARGET = GtComponent
-TARGET = $$qtLibraryTarget($$TARGET)
+TARGET = $$qtLibraryTarget(GtComponent)
+
 QT += quick
 QT += qml
 QT += core
