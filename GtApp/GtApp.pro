@@ -10,7 +10,8 @@ CONFIG += utf8_source
 
 DESTDIR = $$PWD/../bin
 
-SOURCES += \
-        main.cpp
+SOURCES += main.cpp
+
+QML_IMPORT_PATH += $$PWD/../bin
 
 RESOURCES += qml.qrc

@@ -1,6 +1,6 @@
 import QtQuick 2.12
 import QtQuick.Window 2.12
-import Gt.Component 1.0
+import "./Sub"
 
 Window {
     width: 640
@@ -8,16 +8,14 @@ Window {
     visible: true
     title: qsTr("QML Extension Plugin")
 
-    PaintedTest{
+    CustomPaintedTest {
         width: 100
         height: 100
         anchors.centerIn: parent
-        fillColor: "gray"
     }
 
-    QmlTest{
+    CustomQmlTest {
         width: 100
         height: 100
-        color: "gray"
     }
 }

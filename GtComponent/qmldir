@@ -1,2 +1,4 @@
 module Gt.Component
+QmlTest 1.0 QmlTest.qml
 plugin GtComponent
+typeinfo plugins.qmltypes

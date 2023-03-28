@@ -2,5 +2,9 @@
     <qresource prefix="/">
         <file>main.qml</file>
         <file>main2.qml</file>
+        <file>Sub/CustomQmlTest.qml</file>
+        <file>Sub/CustomPaintedTest.qml</file>
+        <file>Sub/CustomPaintedTest2.qml</file>
+        <file>Sub/CustomQmlTest2.qml</file>
     </qresource>
 </RCC>

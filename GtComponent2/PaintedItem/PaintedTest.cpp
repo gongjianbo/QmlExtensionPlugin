@@ -10,9 +10,9 @@ PaintedTest::PaintedTest(QQuickItem *parent)
 
 void PaintedTest::paint(QPainter *painter)
 {
-    painter->drawText((width()-painter->fontMetrics().width("Painted Test"))/2,
+    painter->drawText((width()-painter->fontMetrics().width("Painted Test2"))/2,
                       (height()+painter->fontMetrics().height())/2,
-                      "Painted Test");
+                      "Painted Test2");
 }
 
 void PaintedTest::classBegin()

@@ -1,9 +1,9 @@
-import QtQuick 2.12
+import QtQuick 2.15
 
 Rectangle {
     id: control
     Text {
         anchors.centerIn: parent
-        text: "Qml Test"
+        text: "Qml Test2"
     }
 }

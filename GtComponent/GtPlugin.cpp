@@ -4,7 +4,6 @@
 
 void GtPlugin::registerTypes(const char *uri)
 {
-    Q_INIT_RESOURCE(qmlitem);
     // @uri
     qmlRegisterType<PaintedTest>(uri, 1, 0, "PaintedTest");
 }
